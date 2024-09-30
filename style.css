@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.contact-us {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    padding: 40px;  
+    font-size: 20px;
+
+}
+
+form {
+    padding: 40px;
+}
+
+.inputField {
+    padding: 10px;
+}
+
+.inputField label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 0.25rem;
+}
+
+.inputField input {
+    width: 320px;
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.error {
+    font-size: 15px;
+    color: red;
+}
+
+hr {
+    height: 1px;
+    border: none; /* Retirou a borda deixando as cores do linear-gradiente visiveis, muito bom!!! */
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    margin: 15px 0 30px 0; 
+    /* somente cima e baixo = margin: 30px 0; ou somente dir e esq = margin: 0 30px;  */
+}
+
+button {
+    padding: 8px 25px; /* dimensôes do botão */
+    font-size: 20px;
+    background: none;
+    border: 1px solid #2ad1f8;
+    border-radius: 8px; /* Diz o quanto arredondado ficara as bordas do botão, maximo é 50px (esfera) */
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    border: 1px solid #fff;
+    
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.thanks {
+    padding: 40px;
+    text-align: center;
+}

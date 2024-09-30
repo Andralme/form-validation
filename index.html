@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet"
+    >
+
+
+
+
+</head>
+<body>
+    <div class="contact-us">
+        <h1>Fale conosco - Front Beginners </h1>
+        <p>
+            Deixe sua mensagem abaixo, ficaremos felizes em receber seu contato
+        </p>
+    </div>
+
+    <form>
+        <div class="inputField">
+            <label>Nome Completo:</label>
+            <input name="name" class="" placeholder="Digite seu nome..." /> <!-- O HTML (input) trabalha sempre em linha, ou seja esta do lado do label --> 
+            <!-- Se quiser o (input) na linha de baixo, utilizar no style.css em a seguinte descrição
+             .name label {
+              display: block; } -->
+            <p class="error error-hidden" >O nome é obrigatório.</p>
+        </div>
+
+        <div class="inputField">
+            <label>E-mail</label>
+            <input name="email" class="" placeholder="Digite seu melhor e-mail..." /> <!-- O HTML (input) trabalha sempre em linha, ou seja esta do lado do label --> 
+            <!-- Se quiser o (input) na linha de baixo, utilizar no style.css em a seguinte descrição
+             .name label {
+              display: block; } -->
+            <p class="error error-hidden" >O e-mail é invalido.</p>
+        </div>
+
+        <div class="inputField">
+            <label>CPF</label>
+            <input name="CPF" class="" placeholder="Digite seu CPF..." /> <!-- O HTML (input) trabalha sempre em linha, ou seja esta do lado do label --> 
+            <!-- Se quiser o (input) na linha de baixo, utilizar no style.css em a seguinte descrição
+             .name label {
+              display: block; } -->
+            <p class="error error-hidden" >O CPF é invalido.</p>
+        </div>
+       
+        <hr /> <!-- <hr/> é uma linha horizontal para espaçar e dividir os conteúdos   -->
+
+        <button>Submit</button>
+    </form>
+    <div class="thanks error-hidden">
+        <h2>Obrigado pelo seu contato.</h2>        
+    </div>
+    
+    <script src="./script.js"/>
+</body>
+</html>
